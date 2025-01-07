@@ -28,8 +28,7 @@
         }).addTo(map);
 
         // Load GeoJSON data from SharePoint
-        // Replace 'SHAREPOINT_URL_TO_YOUR_GEOJSON' with the actual URL to the GeoJSON file
-        fetch('SHAREPOINT_URL_TO_YOUR_GEOJSON')
+        fetch('https://svevindgroup.sharepoint.com/sites/IT-InfoChannel-SPWebmap/_layouts/15/download.aspx?UniqueId=ad573157d7b543bfb71cbeed428ce533&e=dfIlce')
             .then(response => response.json())
             .then(data => {
                 // Add the GeoJSON data to the map
